@@ -1,0 +1,50 @@
+baseURL = 'https://lionel.brianto.dev/'
+title = 'Lionel Brianto'
+theme = 'hugo-coder'
+languageCode = 'fr-fr'
+defaultcontentlanguage = 'fr'
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = 'UA-580347-19'
+
+[params]
+    author = "Lionel Brianto"
+    info = "Développeur Backend, Papa² et 20.1% geek ^^"
+    description = "Mon CV développeur Backend"
+    keywords = "blog,developer,personal"
+    avatarurl = "img/avatar.jpg"
+
+    since = 2023
+
+    enableTwemoji = true
+
+    colorScheme = "auto"
+    hidecolorschemetoggle = false
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/kinobi/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/lionelbrianto"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/kinobiweb/"
+
+# Menu links
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "/posts/"
